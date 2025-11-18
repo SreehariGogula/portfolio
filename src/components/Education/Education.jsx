@@ -29,13 +29,13 @@ function Education() {
                     <span className="bg-[#1a1443] absolute left-0  w-fit text-white px-5 py-3 text-xl rounded-md">
                         EDUCATION
                     </span>
-                    {/* <span className="w-full h-[2px] bg-[#1a1443]"></span> */}
+                    <span className="w-full h-[2px] bg-[#1a1443]"></span>
                 </div>
             </div>
 
             <div className="py-8">
-                <div className="flex">
-                    <div className="flex flex-wrap flex-row">
+                <div className="flex mt-10">
+                    <div className="flex flex-wrap flex-row gap-6 justify-center w-full">
                         {
                             educations.map(education => (
                                 <GlowCard key={education.id} identifier={`education-${education.id}`}>

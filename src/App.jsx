@@ -17,8 +17,8 @@ import Contact from './components/Contact/Contact'
 function App() {
 
   useEffect(() => {
-    document.title = "Pavan Budati - Software Developer Portfolio",
-    document.description = "This is the portfolio of Pavan Budati. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges."
+    document.title = "Sreehari Gogula - Software Developer Portfolio",
+    document.description = "This is the portfolio of Sreehari Gogula. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges."
   }, [])
   
 
@@ -31,7 +31,7 @@ function App() {
 		<Experience />
 		<Skills />
 		<Projects />
-		{/* <Education /> */}
+		<Education />
 		<Contact />
 		{/* <BrowserRouter>
 			<Routes>
