@@ -11,5 +11,5 @@ export const personalData = {
   github: 'https://github.com/SreehariGogula',
   linkedIn: 'https://www.linkedin.com/in/sreehari-gogula/',
   twitter: 'https://twitter.com/sreeharigogula',
-  resume: " "
+  resume: "https://sreeharigogula.github.io/Resume/"
 }
